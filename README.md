@@ -40,8 +40,8 @@ particularly large, but unpacking them can take a long time
 because there are well over 500,000 individual image files.
 
 ```sh
-curl -o notMNIST_small.tar.gz http://yaroslavvb.com/upload/notMNIST/notMNIST_mall.tar.gz
-curl -o notMNIST_large.tar.gz http://yaroslavvb.com/upload/notMNIST/notMNIST_arge.tar.gz
+curl -o notMNIST_small.tar.gz http://yaroslavvb.com/upload/notMNIST/notMNIST_small.tar.gz
+curl -o notMNIST_large.tar.gz http://yaroslavvb.com/upload/notMNIST/notMNIST_large.tar.gz
 tar xzf notMNIST_small.tar.gz
 tar xzf notMNIST_large.tar.gz
 ```
