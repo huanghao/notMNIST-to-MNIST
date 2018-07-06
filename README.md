@@ -50,8 +50,8 @@ tar xzf notMNIST_large.tar.gz
 data/ directory and compress them:
 
 ```sh
-python convert_to_mnist_format.py notMNIST_small 1000 data/t10k-labels-idx1-uyte data/t10k-images-idx3-ubyte
-python convert_to_mnist_format.py notMNIST_large 6000 data/train-labels-idx1-byte data/train-images-idx3-ubyte
+python convert_to_mnist_format.py notMNIST_small 1000 data/t10k-labels-idx1-ubyte data/t10k-images-idx3-ubyte
+python convert_to_mnist_format.py notMNIST_large 6000 data/train-labels-idx1-ubyte data/train-images-idx3-ubyte
 gzip data/*ubyte
 ```
 
